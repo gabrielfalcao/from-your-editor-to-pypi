@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+six = "*"
+coverage = "*"
+mock = "*"
+nose = "*"
+pinocchio = "*"
+rednose = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sure = "*"
+twine = "*"
+ipdb = "*"
+
+[dev-packages]
+coverage = "*"
+httpretty = "*"
+nose = "*"
+rednose = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sure = "*"
+sphinxcontrib-mermaid = "*"
+
+[requires]
+python_version = "3.6"
