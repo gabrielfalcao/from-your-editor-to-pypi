@@ -37,6 +37,7 @@ Programme
    #. Run tests on Travis
 
 #. Writing docs
+
    #. Generate API reference from code
    #. Syntax for function or method params and return values
    #. Use `intersphinx <http://www.sphinx-doc.org/en/master/ext/intersphinx.html>`_ to reference other libraries documented with sphinx
