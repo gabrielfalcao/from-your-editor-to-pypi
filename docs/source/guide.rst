@@ -53,7 +53,7 @@ The template is available on github at `gabrielfalcao/cookiecutter-from-editor-t
 
 Cookiecutter is smart enough to install directly from github, for that
 just run the following command from your ``~/projects`` folder or
-whenever you prefer to keep personal projects.
+wherever you prefer to keep personal projects.
 
 
 .. code:: bash
@@ -65,25 +65,44 @@ whenever you prefer to keep personal projects.
                your best to avoid typos in this step as it might impact
                many files of your newly-created project.
 
+.. _enter virtualenv:
+
+5. Enter your virtualenv
+------------------------
+
+This gives you a sandbox python environment where it's safe to install
+dependencies without compromising the integrity of your system
+packages.
+
+In your terminal, go to your project root path and run:
+
+.. code:: bash
+
+   source __virtualenv__/bin/activate
 
 
-5. Run tests
+6. Run tests
 ------------
 
-.. image:: _static/pyramid.jpg
-.. image:: _static/unit-functional.jpg
-
-In your project root, run:
-
+Considering that you succeeded on the step :ref:`enter virtualenv` just run:
 
 .. code:: bash
 
    make unit
    make functional
+
+7. Build your pre-generated documentation
+-----------------------------------------
+
+Considering that you succeeded on the step :ref:`enter virtualenv` just run:
+
+.. code:: bash
+
+   source __virtualenv__/bin/activate
    make docs
 
 
-6. Create a github repository and push your code
+8. Create a github repository and push your code
 ------------------------------------------------
 
 Head to `https://github.com/new <https://github.com/new>`_ and create a repository that matches your pypi package name.

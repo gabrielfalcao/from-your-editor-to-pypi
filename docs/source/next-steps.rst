@@ -1,9 +1,6 @@
 Next Steps
 ==========
 
-Dismiss cookiecutter, create your package from scratch
-------------------------------------------------------
-
 
 Improve your build
 ------------------
@@ -45,3 +42,13 @@ Explore other tools
 -------------------
 
 - Many developers prefer `py.test <https://pytest.org>`_ over `nosetests <https://nose.readthedocs.io/>`_, you should check it out.
+
+
+Please give feedback
+--------------------
+
+Create issues and/or pull-requests to this workshop at github: https://github.com/gabrielfalcao/from-your-editor-to-pypi/issues
+
+- Suggestions
+- Bug (or typo) fixes
+- Or whatever could be improved about the workshop, really.
