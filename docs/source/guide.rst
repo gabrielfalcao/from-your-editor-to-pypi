@@ -47,6 +47,8 @@ To speed-up our productivity we will use `cookiecutter <https://cookiecutter.rea
 4. Create your package with cookiecutter
 ----------------------------------------
 
+.. warning:: you will need to have `git <https://git-scm.com/downloads>`_ installed for this step.
+
 The template is available on github at `gabrielfalcao/cookiecutter-from-editor-to-pypi <https://github.com/gabrielfalcao/cookiecutter-from-editor-to-pypi>`_
 
 Cookiecutter is smart enough to install directly from github, for that
@@ -64,6 +66,7 @@ whenever you prefer to keep personal projects.
                many files of your newly-created project.
 
 
+
 5. Run tests
 ------------
 
@@ -78,3 +81,11 @@ In your project root, run:
    make unit
    make functional
    make docs
+
+
+6. Create a github repository and push your code
+------------------------------------------------
+
+Head to `https://github.com/new <https://github.com/new>`_ and create a repository that matches your pypi package name.
+
+The cookiecutter template already created a git repository for you, so you can simply **go to your project root path and add the git remote ``origin`` as instructed by github.**
