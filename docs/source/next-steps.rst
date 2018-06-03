@@ -1,6 +1,10 @@
 Next Steps
 ==========
 
+Dismiss cookiecutter, create your package from scratch
+------------------------------------------------------
+
+
 Improve your build
 ------------------
 

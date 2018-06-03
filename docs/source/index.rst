@@ -11,6 +11,10 @@ Workshop: From Editor to PyPi
    :caption: Agenda:
 
    programme
+   guide
    pypi-account
    configure-setup-py
    next-steps
+
+
+.. warning:: This documentation is a work-in-progress. Please watch the project on github to receive updates on its repository.

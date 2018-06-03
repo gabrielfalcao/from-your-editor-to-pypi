@@ -28,7 +28,7 @@ Programme
 #. Adding command-line entrypoints
 
 #. Distributing package data
-#. Define extra dependencies (such as ```requests[security]`` <https://github.com/requests/requests/blob/master/setup.py#L98>`_)
+#. Define extra dependencies (such as `requests[security] <https://github.com/requests/requests/blob/master/setup.py#L98>`_)
 #. Writing tests
 
    #. Tooling: Nose (and rednose vs. pinocchio), Sure, HTTPretty, Coverage
