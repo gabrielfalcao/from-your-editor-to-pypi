@@ -14,10 +14,3 @@ Workshop: From Editor to PyPi
    pypi-account
    configure-setup-py
    next-steps
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: work-in-progress
-
-   mindmap

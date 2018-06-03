@@ -1,6 +1,12 @@
 Next Steps
 ==========
 
+Improve your build
+------------------
+
+- Consider using `flake8 <http://flake8.pycqa.org/en/latest/>`_ to lint-check your project.
+- Consider using `tox <https://tox.readthedocs.io/en/latest/>`_ to test your package against multiple python versions.
+
 Host a private PyPi
 -------------------
 
@@ -35,4 +41,3 @@ Explore other tools
 -------------------
 
 - Many developers prefer `py.test <https://pytest.org>`_ over `nosetests <https://nose.readthedocs.io/>`_, you should check it out.
-- Consider using `tox <>`_ to test your package against multiple python versions.
