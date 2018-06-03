@@ -6,15 +6,14 @@
 Workshop: From Editor to PyPi
 =============================
 
+.. danger:: This documentation is a work-in-progress. Please watch the project on github to receive updates on its repository.
+
 .. toctree::
    :maxdepth: 5
    :caption: Agenda:
 
    programme
    guide
-   pypi-account
+   pypirc-credentials
    configure-setup-py
    next-steps
-
-
-.. warning:: This documentation is a work-in-progress. Please watch the project on github to receive updates on its repository.
