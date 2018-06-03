@@ -26,5 +26,13 @@ Here are some open source pypi servers and related tools:
    server.
 -  `pure apache mod_rewrite <https://major.io/2012/01/31/create-a-local-pypi-repository-using-only-mod_rewrite/>`_
 
+Get better at writing docs
+--------------------------
+
+- https://pythonhosted.org/an_example_pypi_project/sphinx.html
+
 Explore other tools
 -------------------
+
+- Many developers prefer `py.test <https://pytest.org>`_ over `nosetests <https://nose.readthedocs.io/>`_, you should check it out.
+- Consider using `tox <>`_ to test your package against multiple python versions.

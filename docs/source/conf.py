@@ -13,9 +13,17 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import os
-# import sys
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+try:
+    import sphinx_rtd_theme
+except ImportError:
+    sys.stderr.write('could not import module "sphinx_rtd_theme"\n')
+    sys.stderr.write('You can install it with:\n\n')
+    sys.stderr.flush()
+    sys.stderr.write('pip install sphinx_rtd_theme')
+    sys.stderr.flush()
+    raise SystemExit(1)
 
 # -- Project information -----------------------------------------------------
 
@@ -24,9 +32,9 @@ copyright = '2018, Gabriel Falcão'
 author = 'Gabriel Falcão'
 
 # The short X.Y version
-version = ''
+version = '0.0.1'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -83,7 +91,8 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
